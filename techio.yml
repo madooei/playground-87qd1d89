@@ -1,4 +1,14 @@
-title: Simple Node.js Template
+title: Values and Variables
 plan:
-- title: Node.js Snippet
-  statement: statement.md
+- title: Types and Variables
+  statement: variable.md
+- title: Numbers
+  statement: number.md
+- title: Strings
+  statement: string.md
+- title: Objects
+  statement: object.md
+- title: Arrays
+  statement: array.md
+- title: Destructing
+  statement: destructing.md
