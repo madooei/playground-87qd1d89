@@ -1,11 +1,21 @@
-# Welcome!
+# JavaScript Types
 
-This Node.js template lets you get started quickly with a simple one-page playground.
+* Numbers
+* Boolean
+* The special values `null` and `undefined`
+* String
+* Symbol
+* Object
+
+> Except for _Object_s, all other types are considered **primitive**
+
+You can use `tyepof` operator to get the type of 
 
 ```javascript runnable
-console.log('Hello World!');
+console.log(typeof 6);
+console.log(typeof 'six');
+console.log(typeof true);
+console.log(typeof null);
+console.log(typeof undefined);
+console.log(typeof Number(6));
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
