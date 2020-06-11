@@ -1,4 +1,24 @@
+# Declaring Variables
+
+In JS, unlike in Java, you don't declare a variable by specifying its data type. 
+Instead, you use the keywords `let` or `const` to declare a variable. 
+
+```javascript runnable
+let name = "Jim";
+console.log(name);
+```
+
+## `const` vs. `let`
+
+
+
+## what about `var`?
+
+You can declare variables with `var` keyword too. 
+
 # JavaScript Types
+
+JavaScript has the following types. 
 
 * Numbers
 * Boolean
